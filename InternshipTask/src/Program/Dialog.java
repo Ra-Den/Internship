@@ -10,7 +10,7 @@ public class Dialog {
      public void enterCode(){
         Scanner in=new Scanner(System.in);
 
-        System.out.println("Would you like to enter your code?\n1-Yes\n2-No(Will be used default code)");
+        System.out.println("Would you like to enter your code?\n1-Yes\n2-No(Default code will be used)");
         int select=in.nextInt();
 
         if(select==1){

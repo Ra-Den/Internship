@@ -11,7 +11,7 @@ public class Main{
     }
 
     public void lookThrough(String input){
-        for(pointer=0;pointer<input.length();pointer++){
+        for(pointer=0;pointer<input.length();pointer++){//Создает "указатель" который проверяет каждый отдельный символ строки и передает его в класс определения какая команда должна быть реализована
             char v=input.charAt(pointer);
             new CertainCommand(v);
         }
